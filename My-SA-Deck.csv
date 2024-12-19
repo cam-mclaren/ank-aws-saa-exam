@@ -1,0 +1,22 @@
+#deck:My-SA-Deck
+#number_of_cards:16
+#html:true
+#notetype column: 2
+#tags column: 5
+#tags: AWS 
+Card001;Cams basic+;What is the cost of enabling IPv6 Ip addresses in your VPC;This is included as part of IPAM free tier;VPC
+Card002;Cams basic+;What is the hourly rate for an in usage public ipv4 address; It is 0.005 cents an hour. So about 12 cents a day; VPC
+Card003;Cams cloze+;AWS Lattice is an {{c1::application}} networking service. It is a {{c2::fully}} managed service that allows you to connect secure and monitor accross mulitple accounts and VPCs;;VPC Lattice
+Card004;Cams basic+;AWS services can be classified into two main types, Public and Private. True or False?;True; Fundamentals
+Card005;Cams basic+;The distinction between AWS Public and Private services purely referes to network accessability. True or false;True; Fundamentals
+Card006;Cams basic+;Describe the three broad zones of how we can classify AWS Services relationship with the internet;1. We have the Private Zone. These are resources hosted on a VPC that need something like an internet Gateway to get out into the public internet<div>2. We have the Public Zone. These are AWS services with public endpoints. They have direct connections to the AWS Private zone but can be reached over the Public internet</div><div>3. The public internet. The Wider network that is the World Wide Web</div>; Fundamentals
+Card007;Cams basic+;What is the difference between AWS Regions and Edge Locations?&nbsp;;AWS Regions are geographically distributed. They are isolated from each other and located to.&nbsp;<div><br></div><div>Edge locations are much smaller than regions and generally only have content distribution services and some types of edge computing.&nbsp;</div>; Fundamentals
+Card008;Cams basic+;What are the three main benefits of AWS Regions;1. Regions are Geographically ISOLATED. This contributes to fault tolerance and availability.<div>2. Geopolitical sepearation. Allows data soveiginty and governance.&nbsp;</div><div>3. Regions give location control, allowing infrastructure to be placed close to customers.&nbsp;</div><div><br></div>; Fundamentals Regions
+Card009;Cams basic+;What permissions does an AMI have?;Public Access, Owner Only, Specific AWS Accounts;AMI  Fundamentals
+Card010;Cams basic+;What is true of an AWS Public Service;1. Located in the AWS Public Zone<div>2. Anyone can connect over the network but application level permissions will still matter.</div>; Fundamentals
+Card011;Cams basic+;Can S3 buckets store an unlimited amount of Data?&nbsp;;Yes; Fundamentals S3
+Card012;Cams basic+;How many root DNS servers exist?;13 different servers managed by 12 large organisations; DNS Fundamentals
+Card013;Cams basic+;Route 53 is a Global service? True or false;Yes Route53 is a Global service. It operates from a single database and as such you do not need to specify a region when using the service.&nbsp;; DNS Fundamentals
+Card014;Cams basic+;What Cloud Formation YAML sytax is associated with the AWSTemplateFormatVersion and the Description Field;If both are included then Description must FOLLOW AWSTemplateFormatVersion; CloudFormation Fundamentals
+Card015;Cams basic+;What is the difference between CloudFormation Templates and a CloudFormation Stack;A CloudFormation Template is a yaml or json file that specifies the Logical Resources as inputs to the Cloud Formation Service. The CloudFormation service creates an internal representation of this called a CloudFormation Stack which maps the Logical Resources in a CF template to the Physical Resources created by Cloud Formation.; CloudFormation Fundamentals
+Card016;Cams basic+;How do you control the allocation of vCPU in an AWS Lambda?;AWS Lambda CPU allocation is scaled with memory allocation and cannot be; Lambda Serverless
