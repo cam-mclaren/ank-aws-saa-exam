@@ -1,5 +1,5 @@
 #deck:My-SA-Deck
-#number_of_cards:28
+#number_of_cards:33
 #html:true
 #notetype column: 2
 #tags column: 5
@@ -32,3 +32,8 @@ Card025;Cams cloze+;What is true of Cloud Trail logs?<br>a) CloudTrail can integ
 Card026;Cams cloze+;What does CloudTrail enable?<br>a) The logging of AWS API events such as log ons and resource deletions<br>b) Successful SSH connections  <br>c) Successful codecommit commits<br>d) DDOS attacks<br>Correct:{{c1:: a is true. Not sure about c}}<br>;; CloudTrail Logging
 Card027;Cams cloze+;Which of the following is Enabled by default on CloudTrail<br>a) 90 day logging of Managment events<br>b) 30 day logging of Data Events<br>c) Integration with CloudWatch<br>d) S3 object access calls<br>Correct:{{c1:: a is true }}<br>;; CloudTrail Logging
 Card028;Cams basic+;What is AWS STS; AWS Security Token Service is an integral part of the AWS IAM set of Services. It is used to provide shortlived access tokens to trusted users. Examples of API calls it supports include:<br>GetFederationToken<br>GetSessionToken<br>AssumeRole; IAM STS
+Card029;Cams cloze+;AWS Xray can be configured to trace requests an application makes to other AWS services. Which AWS services are compatible with Xray?<br>a) Lambda<br>b) Amazon EC2<br>c) Amazon S3<br>d) Amazon ECS<br>Correct:{{c1:: a, b, d}}<br>;; Xray Lambda EC2 ECS
+Card030;Cams cloze+;How does AWS facilitate the network connectivity of lamdas configured within a VPC?<br>a) An ENI is created for each function invocation within the subnet<br>b) A lambda gatway is configured within the VPC by which all functions can connect to the VPC<br>c) AWS analyses all functions for a given account and region and creates ENIs for each security group and subnet<br>d) Lambda functions are public and cannot be configured within a VPC<br>Correct:{{c1:: c}}<br>;; Lambda EC2 VPC
+Card031;Cams cloze+;The AWS Lambda service requires an {{c1::execution policy}} to access {{c2::AWS services}}. As well as this the Lambda service can be configured with {{c3::Resource Policies}} which {{c4::allow other accounts to invoke the lambda}}.;; Lambda IAM
+Card032;Cams cloze+; Which of the following would be required to host a lambda in a VPC with public internet access and access to a database in a private subnet?<br>a) An IAM role to allow the Lambda service to create Elastic Network Interfaces in a VPC<br>b) The Lambda needs to be configured to be in the private databases subnet<br>c) There needs to be a public subnet in the VPC<br>d) There needs to be a NAT gateway in the public subnet<br>Correct:{{c1:: a,b,c,d (You should try and configure this)}}<br>;; Lambda EC2 VPC NATGateway
+Card033;Cams cloze+; By default Lambda functions are given public networking. What does this mean?<br>a) AWS Lambda functions have network access to AWS services in the public zone<br>b) Internet users can invoke the Lambda functions via Lambda function URLs<br>c) Other AWS accounts can invoke your Lambda function<br>d) Lambda functions have access to the Open internet<br>Correct:{{c1:: a,d}}<br>;; Lambda 

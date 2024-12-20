@@ -1,9 +1,10 @@
-Question: Some other question?
+Question: By default Lambda functions are given public networking. What does this mean?
 
-a) 
-b) SO IS THIS
-c) is 
-d) this is also wrong
+a) AWS Lambda functions have network access to AWS services in the public zone
+b) Internet users can invoke the Lambda functions via Lambda function URLs
+c) Other AWS accounts can invoke your Lambda function
+d) Lambda functions have access to the Open internet
 
-Correct: a, b
-Tags: Nonsense
+Correct: a,d
+Tags: Lambda 
+
