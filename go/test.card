@@ -1,10 +1,9 @@
-Question: By default Lambda functions are given public networking. What does this mean?
+Question: A CloudWatch Log group is?
 
-a) AWS Lambda functions have network access to AWS services in the public zone
-b) Internet users can invoke the Lambda functions via Lambda function URLs
-c) Other AWS accounts can invoke your Lambda function
-d) Lambda functions have access to the Open internet
+a) Something to extract metric observations from ingested events and transform them to data points in a CloudWatch metric. 
+b) Define sets of log streams that share the same retention, monitoring, and access control settings. Each log stream has to belong to one.
+c) A name/value pair that is part of the identity of a metric.
+d) A record of some activity recorded by the application or resource being monitored.
 
-Correct: a,d
-Tags: Lambda 
-
+Correct: b
+Tags: CloudWatch
