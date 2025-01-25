@@ -1,5 +1,5 @@
 #deck:My-SA-Deck
-#number_of_cards:47
+#number_of_cards:61
 #html:true
 #notetype column: 2
 #tags column: 5
@@ -52,3 +52,17 @@ Card044;Cams basic+; What feature does enabling requester pays on an S3 bucket d
 Card045;Cams cloze+; Which of the below are S3 Bucket classes?<br>a) Table Buckets<br>b) Directory Buckets<br>c) Tape Buckets<br>d) General Purpose Buckets<br>Correct:{{c1:: a,b,d}}<br>;; Storage S3 
 Card046;Cams cloze+; A CloudWatch Namespace:<br>a) Represents a time-ordered set of data points that are published to CloudWatch.<br>b) Is a container for CloudWatch metrics.<br>c) A name/value pair that is part of the identity of a metric.<br>d) The length of time associated with a specific Amazon CloudWatch statistic.<br>Correct:{{c1:: b}}<br>;; CloudWatch 
 Card047;Cams cloze+; A CloudWatch Log group is?<br>a) Something to extract metric observations from ingested events and transform them to data points in a CloudWatch metric. <br>b) Define sets of log streams that share the same retention, monitoring, and access control settings. Each log stream has to belong to one.<br>c) A name/value pair that is part of the identity of a metric.<br>d) A record of some activity recorded by the application or resource being monitored.<br>Correct:{{c1:: b}}<br>;; CloudWatch
+Card048;Cams cloze+; What is the Hard limit on the number of IAM users an Account can have?<br>a) 5000<br>b) 200<br>c) 10000<br>d) 20<br>Correct:{{c1:: a)}}<br>;; IAM
+Card049;Cams cloze+; What is a real difference between IAM Identity Centre and IAM<br>a) IAM IC has a soft limit of 100,000 users<br>b) IAM is used for federating with Identity Providers<br>c) IAM has a hard limit of 5000 users<br>d) You can create groups using IAM IC<br>Correct:{{c1:: a,c}}<br>;; IAM IAM_Identity_Centre
+Card050;Cams cloze+; What service would you use to federate AWS Quicksight access with your on Prem Active Directory Instance?<br>a) AWS Congnito<br>b) IAM<br>c) AWS Organisations<br>d) IAM Identity Centre<br>Correct:{{c1:: d}}<br>;; IAM_Identity_Centre IAM
+Card051;Cams cloze+; What is the differece between Dynamo DB Provisioned Capcaity Mode and On Demand Mode?<br>a) You cannot use auto Scaling in Provisioned Capcity mode<br>b) On Demand is best for unpredictable capacity<br>c) You do not have to specify Read Write Capacity for On demand mode<br>d) Using On Demand you par per request.<br>Correct:{{c1:: b,c,d}}<br>;; DynamoDB Storage
+Card052;Cams cloze+; When is it possible to restrict what the root user can do?<br>a) Always<br>b) Never<br>c) If AWS Organistions is used<br>d) If AWS Organistions is used but not the managment account root<br>Correct:{{c1:: d}}<br>;; Oragnisations SCP
+Card053;Cams cloze+; What class of database is Amazon Redshift?<br>a) Online Analytical Processing (OLAP)<br>b) Online Transactional Processing (OLTP)<br>c) NoSQL<br>d) Vector Database<br>Correct:{{c1:: a}}<br>;; Redshift Storage
+Card054;Cams cloze+; What scale does AWS Redshift Cater to? <br>a) 100 TBs<br>b) Multiple Petabytes (>1,<200)<br>c) 100s of Petabytes<br>d) Exabytes<br>Correct:{{c1:: b}}<br>;; Storage Redshift
+Card055;Cams cloze+; What is the maximum size that an EBS volume can scale to?<br>a) 64 TiB<br>b) 1 TiB<br>c) 49Tib<br>d) 5TB<br>Correct:{{c1:: a}}<br>;; EBS Storage
+Card056;Cams cloze+; How many regions within an AWS organisation can support an IAM Identity Centre instance?<br>a) 1<br>b) 100<br>c) 3<br>d) 10<br>Correct:{{c1:: a}}<br>;; Oragnisations IAM_Identity_Centre
+Card057;Cams cloze+; What are appropriate situations to make use of AWS Roles? <br>a) Avoid giving AWS Services Hardcoded credentials<br>b) Break Glass situations<br>c) Cross account Access<br>d) Web Identity Federation<br>Correct:{{c1:: a,b,c,d}}<br>;; IAM
+Card058;Cams cloze+; What is true of the difference between a service role and a service Linked role?<br>a) service linked roles cannot be deleted by IAM or root users.<br>b) service roles are pre-defined by AWS<br>c) Service linked roles are pre-defined by AWS<br>d) Service linked roles cannot be passed using the PassRole Permision<br>Correct:{{c1:: a,c}}<br>;; IAM
+Card059;Cams cloze+; What is a service role?<br>a) A IAM role assumed by an IAM user<br>b) A role created by AWS for a given service<br>c) A role assumed by a Federated user<br>d) An IAM role assumed by a service<br>Correct:{{c1:: d}}<br>;; IAM
+Card060;Cams cloze+; What is the purpose of roles trust policy? <br>a) Controls what actions a role can perform<br>b) Associates a role with trusted entities<br>c) Controls what entities a role can be associated with<br>d) Controls what resources a role can modify<br>Correct:{{c1:: c}}<br>;; IAM
+Card061;Cams cloze+; What feature of NoSQL Datbases makes them useful for storing Application state?<br>a) Write Once Read Many<br>b) Low access latency<br>c) horizontal scalability OOTB<br>d) Allows complex queries to be handled by the DB<br>Correct:{{c1:: b,c}}<br>;; storage, DynamoDB
